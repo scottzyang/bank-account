@@ -1,6 +1,6 @@
 
 # function to load
-from operator import truediv
+
 
 # load user names into a list of dictionaries
 def load_user():
