@@ -43,11 +43,13 @@ def display_account(user):
     else:
         print("Username and password not found")
 
+# adds funds to user balance 
 def deposit(user):
     deposit_amount = int(input("\nDeposit amount: \n$"))
     user["balance"] += deposit_amount
     print(f"\nUpdated Balance: ${user['balance']}")
 
+# removes funds from user balance
 def withdraw(user):
     withdraw_amount = int(input("\nWithdraw amount: \n$"))
     user["balance"] -= withdraw_amount
